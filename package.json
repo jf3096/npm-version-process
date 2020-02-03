@@ -1,0 +1,24 @@
+{
+  "name": "npm-version-process",
+  "version": "0.0.1",
+  "description": "检查指定 npm 包是否存在, 目前开发当前工具用于 travis 自动构建使用",
+  "keywords": [
+    "npm-version-process"
+  ],
+  "scripts": {
+    "test": "node bin && node -e \"console.log('release')\""
+  },
+  "bin": {
+    "nvp": "bin/index.js",
+    "npm-version-process": "bin/index.js"
+  },
+  "author": "She Ailun",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
