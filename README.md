@@ -1,4 +1,4 @@
-# npm-version-process
+# npm-version-process [deprecated]
 
 > 检查指定 npm 包是否存在, 目前开发当前工具用于 travis 自动构建使用
 
@@ -14,7 +14,7 @@
 
 ## 使用
 ```bash
-  npx nvp && npm publish
+  npx npm-version-process && npm publish
 ```
 
 ## ChangeLog
